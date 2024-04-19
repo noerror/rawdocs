@@ -20,7 +20,7 @@
 
 고품질 이미지 생성을 위한 확산 확률 모델에 대해 소개합니다. 이 모델은 변형 추론을 사용한 마르코프 체인, 노이즈 제거 점수 매칭, 랑방 역학, 에너지 기반 및 자동 회귀 모델과의 연관성을 탐구합니다. 연구진은 확산 모델이 이미지의 기본 구조를 효과적으로 포착하고 다양한 분야에서 창의적으로 활용될 수 있음을 입증했습니다. 이 모델은 CIFAR10 및 LSUN 데이터 세트에서 우수한 성능을 보여주며, 코드는 GitHub에서 공개적으로 사용할 수 있습니다.
 
-[**High-Resolution Image Synthesis with Latent Diffusion Models**](3/High-Resolution%20Image%20Synthesis%20with%20Latent%20Diffus%200da4edf563324a8084192bd68de409dc)
+[High-Resolution Image Synthesis with Latent Diffusion Models](3/High-Resolution%20Image%20Synthesis%20with%20Latent%20Diffus%200da4edf563324a8084192bd68de409dc)
 
 잠재 확산 모델(LDM)을 사용하여 고해상도 이미지 합성의 계산 복잡성을 줄이는 새로운 방법을 소개합니다. 연구원들은 자동 인코더의 잠재 공간에서 확산 모델을 훈련시켜, 고해상도 이미지를 효율적으로 합성하면서 시각적 충실도를 유지하는 방법을 개발했습니다. LDM은 무조건적 이미지 합성, 인페인팅, 초해상도 등 다양한 작업에서 뛰어난 성능을 보이며, 픽셀 기반 확산 모델보다 계산 비용을 크게 줄였습니다. 이 연구는 고품질 이미지 합성에 대한 새로운 접근 방식을 제시하며, 고해상도 이미지 합성의 가능성을 확장합니다.
 
@@ -40,7 +40,7 @@
 
 ControlNet이라는 신경망 구조를 소개합니다. ControlNet은 사전 학습된 대규모 확산 모델에 추가 입력 조건을 통합하여 제어하는 방법을 제공합니다. 이 방법은 작은 데이터셋에서도 견고하며, 개인용 디바이스에서 효과적으로 작동하고, 필요에 따라 대규모 데이터 세트로 확장 가능합니다. ControlNet의 적용으로, 확산 모델은 에지 맵, 세분화 맵, 키포인트 등의 조건부 입력을 통합하여 더욱 정교하게 제어할 수 있게 되었습니다.
 
-[**HyperNetworks**](3/HyperNetworks%20374804b12cca4571b86dfcd18c75d87b)
+[HyperNetworks](3/HyperNetworks%20374804b12cca4571b86dfcd18c75d87b)
 
 인공 신경망의 가중치를 동적으로 생성하기 위해 사용되는 또 다른 작은 네트워크에 초점을 맞춥니다. 이 하이퍼네트워크는 주 신경망의 각 레이어에 대한 가중치를 생성하며, 특히 순환 신경망에서 시간에 따라 변하는 가중치를 생성하는 데 유용합니다. 연구진은 이 기술이 LSTM과 같은 순환 네트워크의 성능을 개선하고, 다양한 작업에서 경쟁력 있는 결과를 달성하는 데 도움이 된다는 것을 발견했습니다. 이는 하이퍼네트워크가 기존 방법에 비해 적은 수의 학습 가능한 매개변수로 비슷한 수준의 성능을 발휘할 수 있음을 시사합니다.
 
@@ -52,7 +52,7 @@ ControlNet이라는 신경망 구조를 소개합니다. ControlNet은 사전 �
 
 사용자가 개인화된 텍스트-이미지(T2I) 모델을 특정 튜닝 없이 애니메이션 생성기로 확장할 수 있는 새로운 프레임워크, AnimateDiff를 소개합니다. 이 방법은 이미 학습된 동작 정보를 활용하여, 다양한 스타일의 애니메이션 클립을 생성할 수 있도록 합니다. 기존 T2I 모델의 파라미터는 그대로 유지되며, 동작 모델링 모듈만이 추가됩니다. 이 연구는 개인화된 T2I 모델의 애니메이션화에 있어 새로운 기준을 제시하며, 실험을 통해 다양한 스타일의 애니메이션에서 높은 수준의 품질과 모션 부드러움을 유지할 수 있음을 입증합니다.
 
-[**HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models**](3/HyperDreamBooth%20HyperNetworks%20for%20Fast%20Personaliza%201a49cd1c5ef6481196afc377968ed195)
+[HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models](3/HyperDreamBooth%20HyperNetworks%20for%20Fast%20Personaliza%201a49cd1c5ef6481196afc377968ed195)
 
 HyperDreamBooth, 텍스트-이미지 확산 모델의 개인화를 위한 새로운 기술을 소개합니다. 이 기술은 단일 입력 이미지를 사용하여 네트워크 가중치의 부분 집합을 빠르게 예측하고 세부 조정합니다. 이를 통해 기존의 DreamBooth 방법보다 25배 빠른 개인화가 가능하며, 모델의 완결성과 스타일 다양성을 유지하면서 대상의 본질과 세부 사항을 정확하게 근사합니다. 이 방법은 특히 하나 또는 몇 개의 피사체 이미지로 이미지를 생성하는 맥락에서 중요하며, 기존의 텍스트 반전이나 드림부스와 같은 방법보다 우수한 결과를 제공합니다.
 
@@ -64,11 +64,11 @@ HyperDreamBooth, 텍스트-이미지 확산 모델의 개인화를 위한 새로
 
 비디오 언어 모델링을 위한 새로운 대규모 비디오 중심 데이터 세트 'InternVid'를 소개하는 연구입니다. 이 데이터 세트는 700만 개 이상의 비디오-텍스트 쌍을 포함하며, 멀티스케일 캡션 방식으로 고품질 데이터를 제공합니다. 이 연구는 또한 새로운 비디오 언어 모델 'ViCLIP'을 제시하는데, 이는 대조 학습과 마스크 모델링을 사용하여 효과적으로 비디오 언어 표현을 학습합니다. InternVid는 다양한 멀티모달 대화 시스템과 텍스트-비디오 생성 작업에도 사용될 수 있으며, 특히 고해상도 비디오를 생성하는 데에 유용합니다. 이 연구는 비디오 언어 이해와 생성에 대한 새로운 표준을 제시하며, 향후 연구와 애플리케이션을 위한 중요한 리소스를 제공합니다.
 
-[**DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models**](3/DragonDiffusion%20Enabling%20Drag-style%20Manipulation%20o%20f33d9d8ad36244f69d9b0e27c9eb5c96)
+[DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models](3/DragonDiffusion%20Enabling%20Drag-style%20Manipulation%20o%20f33d9d8ad36244f69d9b0e27c9eb5c96)
 
 새로운 이미지 편집 도구를 소개합니다. 이 도구는 객체 이동, 크기 조정, 외형 교체, 콘텐츠 드래그 등과 같은 복잡한 이미지 편집 작업을 위해 설계되었습니다. 기존의 Stable Diffusion 모델을 기반으로 하며, 특별한 모델 미세 조정이나 추가 학습 없이 사용할 수 있습니다. 이 기법은 중간 이미지 특징 간의 강력한 대응을 활용하여, 이미지 내에서 세밀한 편집을 가능하게 합니다. 결과적으로 DragonDiffusion은 편집된 이미지와 원본 이미지 간의 일관성을 유지하면서 정밀한 이미지 조작을 제공합니다.
 
-[**DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing**](3/DragDiffusion%20Harnessing%20Diffusion%20Models%20for%20Inte%20f3668d52c4e54e9993d23f20dc46cdda)
+[DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing](3/DragDiffusion%20Harnessing%20Diffusion%20Models%20for%20Inte%20f3668d52c4e54e9993d23f20dc46cdda)
 
 인터랙티브 포인트 기반 이미지 편집을 위한 새로운 방법인 드래그디퓨전(DRAGDIFFUSION)을 소개합니다. 이 방법은 사용자가 이미지에서 이동할 점을 선택하고, 해당 점들을 새로운 위치로 '드래그'하며, 변경하고자 하는 영역을 정의할 수 있게 합니다. 기존의 드래그 앤 드롭 방식과 달리, 드래그디퓨전은 확산 모델을 사용하여 보다 정밀한 이미지 편집을 가능하게 합니다. 이를 통해 사용자는 다양한 객체, 카테고리 및 스타일을 가진 이미지를 효과적으로 편집할 수 있습니다. 이 방법은 Unsplash, Pexels, Pixabay 등에서 가져온 이미지들을 사용하여 테스트되었습니다.
 
@@ -88,15 +88,15 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 이미지 확산 모델을 활용한 새로운 텍스트 기반 비디오 편집 프레임워크, TokenFlow를 소개합니다. 이 방법은 비디오의 내부 표현을 확산 특성 공간에서 조사하여 일관된 비디오 편집을 가능하게 합니다. 특히, 원본 비디오의 움직임을 보존하면서도 텍스트 프롬프트에 따라 의미론적으로 수정된 비디오를 생성합니다. 이 프레임워크는 기존 베이스라인을 능가하는 시간적 일관성을 보여주지만, 구조적 변화가 필요한 편집에는 제한적이며, 이미지 편집 기법이 구조를 보존하는 데 실패할 경우 시각적 아티팩트를 초래할 수 있습니다. 연구는 확산 모델을 활용한 비디오 합성을 향상시킬 수 있는 새로운 인사이트를 제공하며, 미래 연구를 위한 기반을 마련합니다.
 
-[**Dual-Stream Diffusion Net for Text-to-Video Generation**](3/Dual-Stream%20Diffusion%20Net%20for%20Text-to-Video%20Genera%20fc063fe861b94cfea7deefb273118d15)
+[Dual-Stream Diffusion Net for Text-to-Video Generation](3/Dual-Stream%20Diffusion%20Net%20for%20Text-to-Video%20Genera%20fc063fe861b94cfea7deefb273118d15)
 
 새로운 이중 스트림 확산 네트워크(DSDN)를 소개합니다. 이 기술은 텍스트 설명에서 생성된 비디오의 일관성을 향상시키는 것을 목표로 합니다. DSDN은 두 개의 독립적인 스트림, 즉 비디오 내용과 동작을 각각 다루며, 이를 교차 트랜스포머 상호 작용 모듈을 통해 조화롭게 결합합니다. 이 방법은 실험적으로 더 연속적이고 깜박임이 적은 비디오 생성의 효과를 입증하며, 내용과 동작의 일관성과 다양성을 강화하는데 기여합니다.
 
-[**DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory**](3/DragNUWA%20Fine-grained%20Control%20in%20Video%20Generation%20%20c0e946d8895e478eaa65c39a83908eb4)
+[DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory](3/DragNUWA%20Fine-grained%20Control%20in%20Video%20Generation%20%20c0e946d8895e478eaa65c39a83908eb4)
 
 비디오 생성에 있어 텍스트, 이미지, 궤적(동작 경로)을 결합한 새로운 접근법을 소개합니다. 이 시스템은 비디오의 문맥적, 공간적, 시간적 측면을 통제할 수 있는 능력을 갖추고 있습니다. 이를 위해, 연구진은 비디오의 첫 이미지, 텍스트 설명, 그리고 동작 궤적을 사용하여 더 정교한 비디오 콘텐츠 생성을 실현했습니다. 특히, DragNUWA는 복잡한 동작 및 카메라 움직임을 포함한 궤적 제어, 이미지와 다양한 텍스트를 결합하여 새로운 객체를 추가하는 언어 제어, 그리고 실제 세계 및 예술적인 비디오 생성을 가능하게 하는 이미지 제어를 강조합니다. 이 시스템은 오픈 도메인 비디오에서 복잡한 궤적을 가진 여러 객체를 동시에 제어할 수 있으며, 16 프레임과 576 × 320 해상도의 비디오를 생성합니다. DragNUWA는 텍스트, 이미지, 궤적의 통합을 통해 비디오 제작의 미묘한 제어를 달성하는 혁신적인 접근법을 제시합니다.
 
-[**CoDeF: Content Deformation Fields for Temporally Consistent Video Processing**](3/CoDeF%20Content%20Deformation%20Fields%20for%20Temporally%20Co%2049143d3328cf4e859c9361d6e768cfe7)
+[CoDeF: Content Deformation Fields for Temporally Consistent Video Processing](3/CoDeF%20Content%20Deformation%20Fields%20for%20Temporally%20Co%2049143d3328cf4e859c9361d6e768cfe7)
 
 비디오 프로세싱에 대한 새로운 접근 방식을 제시하는 논문입니다. 이 방법은 이미지 처리 기술을 비디오에 적용하여 이미지 번역, 향상, 분할 등의 작업을 효과적으로 수행합니다. 연구진은 2D와 3D 해시 기반 시스템을 결합하여 복잡한 움직임을 포착하고, 비디오 재구성의 품질을 크게 향상시켰습니다. 이 방법은 비디오 출력물의 품질과 일관성을 개선함으로써 비디오 처리 기술에 혁신적인 변화를 가져올 것으로 기대됩니다.
 
@@ -112,7 +112,7 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 단일 이미지에서 자연스러운 동적 장면을 생성하는 새로운 방법을 제시합니다. 이 연구는 신경 스토캐스틱 모션 텍스처라는 개념을 도입하여 단일 RGB 이미지로부터 장기적인 동작 궤적을 예측합니다. 이 방법은 푸리에 변환을 활용하여 동작을 모델링하고, 이미지에 생동감을 부여하거나 사용자 상호작용에 반응하는 다양한 애플리케이션에 적용될 수 있습니다. 연구팀은 다양한 자연 장면, 특히 바람에 흔들리는 나무나 꽃에 초점을 맞추어 실제 동영상에서 모션 데이터를 학습했으며, 이를 통해 자연스러운 움직임을 예측하는 데 성공했습니다. 이 접근법은 단순한 이미지 생성이 아니라 움직임의 예측에 초점을 맞추고 있으며, 이를 통해 더 자연스러운 애니메이션을 제공합니다.
 
-[**PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis**](3/PixArt-%CE%B1%20Fast%20Training%20of%20Diffusion%20Transformer%20fo%20245586a9b1ec42a38e7a684f0f00c14a)
+[PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis](3/PixArt-%CE%B1%20Fast%20Training%20of%20Diffusion%20Transformer%20fo%20245586a9b1ec42a38e7a684f0f00c14a)
 
 새로운 텍스트-이미지 변환 기술인 PIXART-α를 소개합니다. 이 기술은 혁신적인 훈련 전략, 효율적인 변환기 구조, 고품질 훈련 데이터를 통해 이미지 생성의 품질을 유지하면서 계산 비용을 크게 줄입니다. PIXART-α는 기존 대비 낮은 비용과 환경 영향으로 상당한 이미지 품질을 제공합니다. 이 연구는 AI 및 그래픽 컴퓨팅 커뮤니티에 저렴하면서도 효과적인 텍스트-이미지 모델 개발 가능성을 제시합니다.
 
@@ -120,7 +120,7 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 이미지 완성 분야에서 참조 기반의 접근 방식을 새롭게 제시합니다. 이 연구에서는 참조 이미지와 목표 이미지를 활용하여 누락된 부분을 사실적으로 채우는 새로운 기술인 'RealFill'을 개발했습니다. RealFill은 참조 이미지를 사용하여 인페인팅 모델을 미세 조정함으로써, 대상 이미지의 누락된 부분을 참조 이미지와 일치하게 만듭니다. 이는 특히 다양한 카메라 각도, 조명 조건, 피사체 포즈에서 참조 이미지와 대상 이미지 간의 상당한 차이를 처리하는 데 탁월한 능력을 보여줍니다. 이 연구는 참조 이미지를 사용하여 인페인팅과 아웃페인팅을 모두 수행하는 새로운 데이터 세트 'RealBench'를 도입함으로써, 복잡한 시나리오에서의 성능을 평가합니다. RealFill은 기존 방법들과 비교하여 높은 충실도와 품질의 결과물을 생성하는 것으로 나타났습니다.
 
-[**Kandinsky: an Improved Text-to-Image Synthesis with Image Prior and Latent Diffusion**](3/Kandinsky%20an%20Improved%20Text-to-Image%20Synthesis%20with%20bcb54052d04c4980a8773a465b808bc7)
+[Kandinsky: an Improved Text-to-Image Synthesis with Image Prior and Latent Diffusion](3/Kandinsky%20an%20Improved%20Text-to-Image%20Synthesis%20with%20bcb54052d04c4980a8773a465b808bc7)
 
 텍스트-이미지 생성 분야에서 새로운 잠재 확산 아키텍처, 칸딘스키를 소개합니다. 이 모델은 기존 모델들과 비교하여 향상된 이미지 생성 품질을 보여주며, 이미지 사전 확산과 잠재 확산을 결합한 첫 번째 시도입니다. 칸딘스키는 다양한 텍스트 인코더를 사용하며, 이미지 사전과 잠재 확산 프로세스를 통해 텍스트를 이미지로 변환하는 최첨단 방법을 제시합니다. 실험 결과, 칸딘스키는 경쟁 모델과 비교하여 뛰어난 FID 점수를 보여줍니다. 이 모델은 웹 기반 이미지 편집기와 텔레그램 봇을 통해 다양한 이미지 생성 기능을 제공하며, Apache 2.0 라이선스로 공개되어 있어 널리 접근할 수 있습니다.
 
@@ -128,19 +128,19 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 이미지 디자인과 생성 과정을 자동화하는 새로운 프레임워크인 Idea2Img를 제시합니다. 이 프레임워크는 GPT-4V(ision), 즉 텍스트와 이미지를 모두 이해할 수 있는 대규모 다중 모드 모델을 사용하여 사용자의 아이디어를 시각적 이미지로 변환합니다. Idea2Img는 반복적인 자체 개선 과정을 통해 텍스트 프롬프트를 생성 및 수정하고, 최상의 초안 이미지를 선택하며, 피드백을 제공합니다. 이 과정은 인간의 반복적인 정제 과정을 모방하여 이미지 생성 과정을 더욱 효율적이고 직관적으로 만듭니다. 연구 결과는 Idea2Img가 다양한 디자인 시나리오에서 이미지 품질을 일관되게 개선하는 것을 보여줍니다.
 
-[**HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion**](3/HyperHuman%20Hyper-Realistic%20Human%20Generation%20with%20L%2098c34514ca224f11852861eaec3d73b3)
+[HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion](3/HyperHuman%20Hyper-Realistic%20Human%20Generation%20with%20L%2098c34514ca224f11852861eaec3d73b3)
 
 하이퍼휴먼이라는 혁신적인 프레임워크를 소개합니다. 이는 텍스트 설명이나 포즈 같은 사용자 입력을 기반으로 매우 사실적인 인간 이미지를 생성합니다. 기존의 방법들이 학습 중 안정성 문제나 제한된 데이터 세트에서의 성능 문제를 겪는 반면, 하이퍼휴먼은 복잡한 인간 구조를 효과적으로 모델링합니다. 이 프레임워크는 잠재 구조 확산 모델과 구조 가이드 리파이너라는 두 가지 혁신적인 모듈을 포함하여, 인간의 외형과 내부 구조 사이의 상관관계를 포착합니다. 이를 위해 3억 4천만 개의 고품질 인체 이미지를 포함한 휴먼버스 데이터 세트가 사용되었습니다. 하이퍼휴먼은 제어 가능하고 사실적인 인간 이미지 생성을 가능하게 하며, 다양한 시나리오에서 우수한 성능을 보여주었습니다.
 
-[**DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing**](3/DynVideo-E%20Harnessing%20Dynamic%20NeRF%20for%20Large-Scale%203988caa627aa4931b8e956fcca62b460)
+[DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing](3/DynVideo-E%20Harnessing%20Dynamic%20NeRF%20for%20Large-Scale%203988caa627aa4931b8e956fcca62b460)
 
 동적 신경 방사 필드(NeRF)를 활용하여 복잡한 움직임과 시점 변화를 포함한 인간 중심의 비디오 편집에 관한 연구입니다. 이 방법은 레퍼런스 피사체 이미지와 배경 스타일 이미지를 기반으로 대규모 모션 및 뷰 변경을 필요로 하는 비디오를 일관성 있게 편집할 수 있게 합니다. 연구에서는 다양한 2D 표현을 사용한 비디오 편집을 이미지 편집으로 전환하는 시도도 포함되어 있으나, 이는 대규모 모션과 시점 변화가 있는 동영상에서는 어려움을 겪습니다. DynVideo-E는 동적 NeRF를 사용하여 비디오 데이터를 3D 공간으로 통합하고, 재구성 손실, 스코어 증류 샘플링(SDS), 해상도 개선, 스타일 전송과 같은 전략을 통합하여 3D 공간에서의 비디오 편집을 개선합니다. 이 연구는 동적인 사람 중심의 동영상에 대해 엄격한 테스트를 거쳐 높은 선호도와 일관된 고품질 비디오 편집 결과를 보여주었습니다.
 
-[**PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding**](3/PhotoMaker%20Customizing%20Realistic%20Human%20Photos%20via%20%20ca69f877b28d4b62be53b73473a4f4e7)
+[PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding](3/PhotoMaker%20Customizing%20Realistic%20Human%20Photos%20via%20%20ca69f877b28d4b62be53b73473a4f4e7)
 
 입력된 신분증 이미지를 기반으로 다양한 맞춤형 신분증 사진을 생성하는 새로운 방법을 제시합니다. 이 프레임워크는 텍스트 프롬프트를 사용하여 개인화된 ID 이미지를 생성하며, ID 정보를 잘 보존하면서 사실적인 사람 사진을 만들어냅니다. 포토메이커는 속성 변경, 예술 작품이나 오래된 사진의 인물을 현실로 불러오기, 신원 혼합 등 다양한 애플리케이션을 지원합니다. 이 방법은 입력된 ID 이미지의 특징을 유지하면서 새로운 이미지를 생성하는 데 효율적이고 다재다능한 접근 방식을 제공합니다.
 
-[**DreaMoving: A Human Dance Video Generation Framework based on Diffusion Models**](3/DreaMoving%20A%20Human%20Dance%20Video%20Generation%20Framewor%209604cd5d06054ba991894d881d09f579)
+[DreaMoving: A Human Dance Video Generation Framework based on Diffusion Models](3/DreaMoving%20A%20Human%20Dance%20Video%20Generation%20Framewor%209604cd5d06054ba991894d881d09f579)
 
 인간 중심의 춤 동영상을 생성하는 새로운 프레임워크, DreaMoving을 소개합니다. 이 프레임워크는 기존의 텍스트-비디오 모델과는 달리, 인간의 춤 동작을 보다 정확하게 학습하고 재현하는 데 초점을 맞추고 있습니다. DreaMoving은 안정적인 확산 모델을 기반으로 하며, 노이즈 제거 U-넷, 비디오 제어 네트워크, 콘텐츠 가이드 등을 포함한 다중 네트워크 구조를 갖추고 있습니다. 이 프레임워크는 텍스트와 이미지 프롬프트를 결합하여 비디오 콘텐츠를 보다 세부적으로 제어할 수 있으며, 고품질의 개인화된 비디오 콘텐츠 생성 능력을 갖추고 있습니다.
 
@@ -148,11 +148,11 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 텍스트-이미지 모델을 개인화하는 새로운 방법을 제안합니다. 이 연구는 특정 피사체를 포함하면서도 프롬프트에 충실한 이미지를 생성하는 데 있어 기존 모델들의 한계를 극복하기 위해 소량의 개인 이미지 세트로 모델을 미세 조정하고 강력한 정규화를 적용하는 방법을 도입합니다. 저자들은 개인화와 프롬프트 정렬을 결합한 프레임워크를 소개하며, 이는 특정 프롬프트와 관련된 한계를 극복하고 텍스트-이미지 모델의 잠재력을 극대화하는 데 목표를 둡니다. 이 방법은 정성적, 정량적 평가를 통해 기존 기준선에 비해 우수한 결과를 보여주며, 다양한 소스에서 영감을 얻는 능력을 강조합니다.
 
-[**DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation**](3/DREAM-Talk%20Diffusion-based%20Realistic%20Emotional%20Aud%20955ac22534c043ed9cc4f5dc175593f3)
+[DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation](3/DREAM-Talk%20Diffusion-based%20Realistic%20Emotional%20Aud%20955ac22534c043ed9cc4f5dc175593f3)
 
 DREAM-Talk은 오디오 시퀀스, 지정된 인물 이미지, 감정 스타일 예시를 기반으로 고품질 감정 표현과 사실적인 립싱크를 갖춘 말하는 얼굴 비디오를 생성하는 새로운 기술입니다. 현존하는 방법들은 감정 표현의 미묘함과 다양성을 포착하는 데 어려움을 겪는 반면, DREAM-Talk은 두 가지 주요 단계를 사용합니다: EmoDiff 모듈과 립 리파이닝. EmoDiff는 감정 조건부 확산 모델을 사용하여 역동적인 감정 표현을 포착하며, 립 리파이닝 단계는 정확한 립싱크를 보장합니다. 이 방법은 감정 표현, 입술 동기화, 신원 보존, 이미지 품질 면에서 기존 방식보다 우수한 결과를 제공합니다. DREAM-Talk의 성공은 가상현실, 엔터테인먼트, 커뮤니케이션 등 다양한 분야에 적용될 수 있는 실감나고 감정적으로 몰입할 수 있는 디지털 인간 표현을 가능하게 합니다.
 
-[**Wav2Lip: *Accurately Lip-syncing Videos In The Wild***](3/Wav2Lip%20Accurately%20Lip-syncing%20Videos%20In%20The%20Wild%204e4ebce8dcde452ebebc95f85fa32d5c)
+[Wav2Lip: *Accurately Lip-syncing Videos In The Wild*](3/Wav2Lip%20Accurately%20Lip-syncing%20Videos%20In%20The%20Wild%204e4ebce8dcde452ebebc95f85fa32d5c)
 
 동영상에서 자연스러운 립싱크를 생성하기 위한 새로운 접근법을 제시합니다. 이 모델은 다양한 환경과 화자에 대해 정확한 입술 움직임을 동기화할 수 있는 능력을 갖추고 있습니다. 이 연구는 립싱크의 정확성을 보장하기 위해 사전에 훈련된 립싱크 '전문가'를 활용하며, 이를 통해 기존 모델의 단점을 극복합니다. 또한, 이 논문은 현재 립싱크 평가 방식의 한계를 지적하고 새로운 평가 메트릭과 벤치마크를 제안합니다. Wav2Lip은 정량적 및 정성적 평가 모두에서 우수한 성능을 보이며, 이러한 기술의 활용 가능성을 넓혀 다양한 언어로 더빙된 콘텐츠나 CGI 캐릭터의 애니메이션 제작에 기여할 수 있습니다. 이 모델은 합성 콘텐츠의 표시를 통해 공정한 사용을 촉진하며, 조작된 동영상 콘텐츠의 오용을 탐지하고 방지하는 연구에 기여할 수 있습니다.
 
@@ -164,7 +164,7 @@ DiffusionGPT는 대규모 언어 모델(LLM)을 활용하여 다양한 유형의
 
 임의의 사진을 기반으로 하여 해당 인물이 다른 사람의 행동을 모방할 수 있도록 하는 새로운 방법을 제안합니다. 이를 위해, 저자들은 '3DHM'이라는 두 단계 프레임워크를 개발했습니다. 첫 번째 단계에서는 모방자의 완전한 질감 맵을 생성하고, 두 번째 단계에서는 이 질감 맵을 사용하여 배우의 포즈를 모방하는 사실적인 인간 모방자를 렌더링합니다. 이 과정에서는 3D 자세 복구 모델인 '4DHumans'를 사용하여 배우의 동작을 추출하고, 이를 시간에 따라 추적합니다. 연구팀은 이 방법을 사용하여 다양한 동작과 외모를 갖는 인간 모방자의 사실적인 렌더링을 생성하며, 이는 디지털 이미지 처리 분야에서 중요한 기술적 발전을 나타냅니다.
 
-[**DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization**](3/DreamMatcher%20Appearance%20Matching%20Self-Attention%20fo%20cca45cdd2b3943a28766b5d04ab9e338)
+[DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization](3/DreamMatcher%20Appearance%20Matching%20Self-Attention%20fo%20cca45cdd2b3943a28766b5d04ab9e338)
 
 DreamMatcher는 참조 이미지를 기반으로 개인화된 이미지를 생성하는 획기적인 기법으로, 외형 매칭 자기주의(Appearance Matching Self-Attention, AMA)를 통해 참조 이미지의 외형적 특성을 타겟 이미지에 정교하게 통합합니다. 이 과정에서 의미적 매칭과 일관성 모델링을 활용하여 참조 외형을 타겟 구조에 의미론적으로 일치시키며, 이는 세밀한 주제 세부사항의 향상을 가능하게 합니다. 또한, DreamMatcher는 추가적인 훈련이나 미세 조정 없이도 기존의 어떤 T2I 개인화 모델과 호환될 수 있는 범용성과 호환성을 갖추고 있어, 다양한 기존 모델과 쉽게 통합될 수 있는 강점을 지닙니다. 이러한 접근 방식은 참조 이미지의 외형을 보다 정확하고 다양하게 재현할 수 있는 새로운 가능성을 열어, T2I 개인화 기술의 새로운 지평을 엽니다.
 
@@ -172,7 +172,7 @@ DreamMatcher는 참조 이미지를 기반으로 개인화된 이미지를 생�
 
 Video Custom Diffusion (VCD) 프레임워크는 텍스트 기반의 비디오 생성에서 아이덴티티 특정과 시간적 일관성을 달성하기 위해 세 가지 핵심 기술을 도입합니다. 첫 번째로, 3D Gaussian Noise Prior를 사용하여 비디오 프레임 간의 일관성을 강화하고, 동작의 안정성을 높이면서 동작의 크기를 조절합니다. 이는 추론 단계에서만 적용되어 복잡한 재훈련 과정 없이도 효과를 발휘합니다. 두 번째로, ID 모듈은 확장된 ID 토큰을 통해 특정 아이덴티티의 시각적 특성을 정밀하게 포착하고 재현하는 데 초점을 맞춥니다. 이 모듈은 prompt-to-segmentation 기법을 활용하여 아이덴티티와 배경을 구분하고, 아이덴티티의 세부 사항을 더욱 명확히 합니다. 마지막으로, Face VCD와 Tiled VCD 기술은 각각 비디오 내 인물의 얼굴을 선명하게 하고 전반적인 해상도를 향상시키는 방식으로, 비디오의 품질과 아이덴티티 표현의 세밀함을 개선합니다. 이 세 가지 기술의 결합을 통해 VCD는 주어진 텍스트 프롬프트에 따라 아이덴티티를 정확하게 유지하면서 시간적으로 일관된 비디오를 생성할 수 있는 능력을 제공합니다.
 
-[**EMO: Emote Portrait Alive - Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions**](3/EMO%20Emote%20Portrait%20Alive%20-%20Generating%20Expressive%20P%202c48af6dead841b691c445bd2f2b16fa)
+[EMO: Emote Portrait Alive - Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions](3/EMO%20Emote%20Portrait%20Alive%20-%20Generating%20Expressive%20P%202c48af6dead841b691c445bd2f2b16fa)
 
 참조 이미지와 음성 데이터를 결합하여 표현력 있는 얼굴 표정과 머리 움직임을 가진 토킹 헤드 비디오를 생성하는 새로운 프레임워크를 제안합니다. 주목할 점은, 음성 입력과 시각적 모션 데이터를 통합적으로 처리하여, 입력 오디오의 길이에 관계없이 자연스러운 동작과 표정을 지닌 비디오를 생성할 수 있다는 점입니다.
 
@@ -180,7 +180,7 @@ Video Custom Diffusion (VCD) 프레임워크는 텍스트 기반의 비디오 �
 
 OOTDiffusion은 사전 훈련된 잠재 확산 모델을 활용하여 의류의 세부 특성을 효과적으로 학습하고, 착용 융합 과정을 통해 목표 인간 몸체에 자연스럽게 통합하는 새로운 이미지 기반 가상 시착 기술을 제시합니다. 이 방법은 독립적인 와핑 과정 없이도 정보 손실이나 특성 왜곡 없이 다양한 목표 인간 몸체 유형과 자세에 맞게 의류 특성을 부드럽게 적응시키는 데 성공함으로써, 현실성과 제어 가능성을 대폭 향상시킵니다.
 
-[**Boximator: Generating Rich and Controllable Motions for Video Synthesis**](3/Boximator%20Generating%20Rich%20and%20Controllable%20Motions%2089c3b4c210114238acbeebb4586c0403)
+[Boximator: Generating Rich and Controllable Motions for Video Synthesis](3/Boximator%20Generating%20Rich%20and%20Controllable%20Motions%2089c3b4c210114238acbeebb4586c0403)
 
 Boximator는 비디오 내 객체의 움직임을 세밀하게 제어할 수 있는 박스 형태의 제약 조건을 도입하여, 기존 비디오 합성 모델의 한계를 극복합니다. 이 방법은 사용자가 직관적으로 객체의 위치와 경로를 조절할 수 있게 함으로써, 비디오 생성 과정에서 더 큰 유연성과 정밀도를 제공합니다.
 

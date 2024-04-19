@@ -1,6 +1,6 @@
 # Geometry & Physics
 
-[**Optimized Spatial Hashing for Collision Detection of Deformable Objects**](3/Optimized%20Spatial%20Hashing%20for%20Collision%20Detection%20%2040e0c3ba0bc046a09c7c1e40e4f79b59)
+[Optimized Spatial Hashing for Collision Detection of Deformable Objects](3/Optimized%20Spatial%20Hashing%20for%20Collision%20Detection%20%2040e0c3ba0bc046a09c7c1e40e4f79b59)
 
 동적으로 변형되는 물체들 사이의 충돌 및 자기 충돌을 효율적으로 감지하기 위해 공간 해싱 기반의 새로운 알고리즘을 제안합니다. 이 방법은 실시간 시뮬레이션에서 복잡한 물체들의 상호작용을 정확하고 빠르게 처리할 수 있는 능력을 제공함으로써, 게임, 의료 시뮬레이션, 가상 현실과 같은 다양한 분야에서의 응용 가능성을 크게 확장합니다.
 
@@ -8,7 +8,7 @@
 
 컴퓨터 그래픽스 분야에서 물리 기반 애니메이션을 위한 위치 기반 시뮬레이션 프레임워크를 제안하며, 이를 통해 객체의 직접적인 위치 조정을 가능하게 하여 높은 수준의 제어와 안정성을 제공합니다. 이 방법은 특히 옷감 시뮬레이션에서 실시간으로 복잡한 움직임을 현실적으로 처리할 수 있는 강력한 도구로, 충돌 처리, 자체 충돌의 해결, 및 강체와의 상호작용 등 다양한 시나리오에서의 안정적인 성능을 입증합니다.
 
-[**Cloth Self Collision with Predictive Contacts [gdc]**](3/Cloth%20Self%20Collision%20with%20Predictive%20Contacts%20%5Bgdc%2042ba12c0ca234638ac8d34a20ebea4f3)
+[Cloth Self Collision with Predictive Contacts [gdc]](3/Cloth%20Self%20Collision%20with%20Predictive%20Contacts%20%5Bgdc%2042ba12c0ca234638ac8d34a20ebea4f3)
 
 이 논문은 위치 기반 시뮬레이션을 통해 옷감, 유체, 변형 가능한 객체 등의 물리적 현상을 실시간으로 정확하고 효율적으로 시뮬레이션하는 새로운 방법을 제시합니다. 제약 조건을 기반으로 한 이 접근법은 시각적으로 실감나는 결과를 생성하면서도 안정성과 성능을 향상시키는 데 중점을 둡니다.
 

@@ -1,6 +1,6 @@
 # DepthEstimation
 
-[**Depth-Aware Video Frame Interpolation**](3/Depth-Aware%20Video%20Frame%20Interpolation%2013f0deb9050643b3894760c7398562ed)
+[Depth-Aware Video Frame Interpolation](3/Depth-Aware%20Video%20Frame%20Interpolation%2013f0deb9050643b3894760c7398562ed)
 
 비디오 프레임 보간을 위한 깊이 인식 알고리즘을 제시합니다. 이 기술은 깊이 정보를 활용하여 비디오에서 객체의 상대적 거리를 감지하고, 이를 통해 더 부드러운 중간 프레임을 생성합니다. 이 연구는 비디오 시퀀스에서 기존 프레임 사이에 새로운 프레임을 생성하는 과정에 초점을 맞추며, 특히 오클루전(시야 차단) 상황에서도 효과적입니다. 연구진은 깊이 정보를 사용하여 오클루전을 명시적으로 감지하고, 이를 통해 중간 프레임 생성 시 가까운 객체에 우선순위를 부여합니다. 이 알고리즘은 계층적 특징을 사용해 주변 픽셀에서 컨텍스트를 수집하고, 이를 통해 고품질의 비디오 프레임을 생성합니다. 실험 결과, 이 새로운 모델은 다양한 데이터 세트에서 기존 방법보다 우수한 성능을 보여줍니다.
 
@@ -20,7 +20,7 @@
 
 비디오에서 3D 정보를 복구하는 데 있어 깊이 추정의 시간적 일관성에 중점을 둡니다. 이 연구는 단일 이미지 깊이 방법을 기반으로 하되, 시간적 일관성을 강화함으로써 보다 안정적인 깊이 추정을 달성하는 새로운 접근법을 제시합니다. 저자들은 이 방법이 깊이 추정 품질을 저하시키지 않으면서 시간적 일관성을 개선한다는 것을 입증하며, 깊이 기준이 없는 실제 장면에도 이 방법을 적용할 수 있음을 보여줍니다. 이 연구는 단일 프레임 추론에서 비디오 깊이 추정의 시간적 일관성을 향상시키는 중요한 발전을 나타냅니다.
 
-[**ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth**](3/ZoeDepth%20Zero-shot%20Transfer%20by%20Combining%20Relative%20%20d443ea562ca54766889cfbf116a31b65)
+[ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth](3/ZoeDepth%20Zero-shot%20Transfer%20by%20Combining%20Relative%20%20d443ea562ca54766889cfbf116a31b65)
 
 단일 이미지 깊이 추정(SIDE) 분야에서 메트릭 깊이 추정(MDE)과 상대적 깊이 추정(RDE)을 결합한 새로운 방법론을 제안합니다. 이 논문은 MDE의 정확도와 RDE의 일반화 능력을 통합하여, 다양한 도메인의 이미지에 대해 효과적으로 깊이를 추정할 수 있는 모델을 개발합니다. 이 방법론은 기존의 단일 도메인에 국한된 깊이 추정 방식과 달리 다양한 환경에 적용 가능하며, 실내외 장면에 대해 높은 정확도를 보이는 동시에, 학습되지 않은 데이터셋에 대해서도 뛰어난 일반화 능력을 보여줍니다. 이는 깊이 추정 분야에서의 중요한 발전으로, 향후 실용적인 응용에 큰 영향을 미칠 수 있습니다.
 
@@ -32,7 +32,7 @@
 
 단안 깊이 추정 기술에 대한 혁신적인 연구로, 단일 이미지에서 물체의 거리를 예측하는 방법을 제공합니다. 이 기술은 자율 주행, 3D 재구성 등에 응용될 수 있으며, MiDaS는 정확한 깊이 추정을 위해 학습 기반 접근 방식을 채택합니다. 이 최신 버전에서는 다양한 최첨단 백본과 새로운 깊이 추정 모델이 통합되어 있으며, 연구의 초점은 이 백본들을 MiDaS에 통합하는 방법과 다양한 모델을 비교 및 분석하는 데 있습니다. 이를 통해 더욱 정확하고 일반화된 깊이 추정 결과를 도출할 수 있으며, MiDaS는 이 분야에서 중요한 발전을 이루고 있습니다.
 
-[**Zero-Shot Metric Depth with a Field-of-View Conditioned Diffusion Model**](3/Zero-Shot%20Metric%20Depth%20with%20a%20Field-of-View%20Condit%201150761a6e134402a570ec44c6b73633)
+[Zero-Shot Metric Depth with a Field-of-View Conditioned Diffusion Model](3/Zero-Shot%20Metric%20Depth%20with%20a%20Field-of-View%20Condit%201150761a6e134402a570ec44c6b73633)
 
 DMD(De-noising Diffusion for Metric Depth)라는 새로운 기술을 소개합니다. 이 기술은 단안 깊이 추정 문제에 대한 혁신적인 접근 방식으로, 특히 다양한 카메라 속성에 대한 일반화와 스케일 모호성 해결에 중점을 둡니다. DMD는 시야각 증강, FOV 컨디셔닝, 로그 도메인 깊이 표현, 노이즈 제거의 v-파라미터화 같은 기술을 통합하여 실내외 환경에서 뛰어난 메트릭 깊이 추정 성능을 제공합니다. 이 모델은 여러 벤치마크에서 기존 메트릭 깊이 모델인 ZoeDepth보다 우수한 성능을 보여, 이 분야에서의 새로운 표준을 제시합니다.
 
@@ -40,6 +40,6 @@ DMD(De-noising Diffusion for Metric Depth)라는 새로운 기술을 소개합�
 
 대규모의 레이블이 없는 데이터를 활용하여 단일 카메라 심도 추정(Monocular Depth Estimation, MDE) 분야에 새로운 접근 방식을 제시함으로써, 기존 방법들과 비교하여 뛰어난 일반화 능력과 견고성을 보여줍니다. 이는 레이블이 없는 이미지에서 자동으로 심도 레이블을 생성하고, 의미론적 정보를 통합하여 모델의 성능을 크게 향상시키는 두 가지 주요 전략에 기반합니다.
 
-[**DepthFM: Fast Monocular Depth Estimation with Flow Matching**](3/DepthFM%20Fast%20Monocular%20Depth%20Estimation%20with%20Flow%20%2016ada3dba3264b37bffc52c4c58c1e58)
+[DepthFM: Fast Monocular Depth Estimation with Flow Matching](3/DepthFM%20Fast%20Monocular%20Depth%20Estimation%20with%20Flow%20%2016ada3dba3264b37bffc52c4c58c1e58)
 
 DepthFM은 단일 이미지로부터 세밀한 깊이 정보를 정확하게 추정할 수 있는 효율적인 흐름 매칭 기반 모델을 제안합니다. 이 모델은 전적으로 합성 데이터에 기반하여 훈련되었음에도 불구하고, 실제 이미지에 대해 뛰어난 일반화 능력을 보여줍니다.

@@ -36,14 +36,14 @@ IGC-Net(해석 가능한 그래픽 캡슐 네트워크)이라는 비지도 방�
 
 단일 3D 스캔을 사용하여 개인화된 디지털 휴먼 얼굴 에셋과 리그를 생성하는 새로운 방법을 소개합니다. 이 방법은 영화, 게임 제작, 가상현실 등의 분야에 적용 가능합니다. 고도의 기술과 시간이 많이 소요되는 기존 방식과 달리, 이 접근법은 빠르고 자동화된 프로세스를 제공하며, '언캐니 밸리' 현상을 피하는 사실적인 얼굴을 생성할 수 있습니다. 연구진은 3D 스캔 데이터를 기반으로 개인화된 블렌드 셰이프와 물리 기반 텍스처 맵을 생성하며, 이를 통해 개인의 고유한 특성을 반영한 리깅된 모델을 만듭니다. 이 프레임워크는 고품질 얼굴 리그 에셋을 자동으로 생성하며, 전문적인 프로덕션 파이프라인에 직접 통합할 수 있습니다.
 
-[**SDM-UniPS: Scalable, Detailed, and Mask-Free Universal Photometric Stereo**](3/SDM-UniPS%20Scalable,%20Detailed,%20and%20Mask-Free%20Univer%20673e9bc582564c61bbcbe3fa7630ded0)
+[SDM-UniPS: Scalable, Detailed, and Mask-Free Universal Photometric Stereo](3/SDM-UniPS%20Scalable,%20Detailed,%20and%20Mask-Free%20Univer%20673e9bc582564c61bbcbe3fa7630ded0)
 
 SDM-UniPS, 즉 확장 가능하고 상세하며 마스크가 필요 없는 범용 측광 스테레오 네트워크를 소개합니다. 이 네트워크는 제어되지 않은 조명 조건 하에서 촬영된 이미지로부터 상세한 표면 맵을 생성합니다. 기존 UniPS 방법의 세 가지 주요 문제점을 해결하기 위해 개발된 이 네트워크는 다양한 입력 이미지 크기를 수용하면서 조명 특징을 효과적으로 추출하는 스케일 불변 공간 조명 특징 인코더, 픽셀 샘플링 트랜스포머를 사용하여 전역 정보를 고려하는 새로운 표면 법선 디코더, 그리고 다양한 물체, 텍스처, 조명 조건이 포함된 합성 훈련 데이터 세트를 특징으로 합니다. 이 방법은 기존 방식보다 시간을 절약할 수 있으며, '야생' 환경에서도 측광 스테레오를 수행할 수 있는 가능성을 제시합니다.
 
-[**Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN**](3/Towards%20Ghost-free%20Shadow%20Removal%20via%20Dual%20Hierarc%20060762920b504ff8ba4d65eccee67e00)
+[Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN](3/Towards%20Ghost-free%20Shadow%20Removal%20via%20Dual%20Hierarc%20060762920b504ff8ba4d65eccee67e00)
 
 그림자 제거를 위한 새로운 접근 방식을 제시합니다. 이 방법은 특히 광원 반대편에 드리워진 그림자를 제거하는데 중점을 둡니다. 연구진은 그림자 제거 작업에 집중하여, 이미지에서 그림자를 효과적으로 제거하고 유령 현상을 최소화하는 새로운 네트워크 구조를 개발했습니다. 이 구조는 그림자가 있는 이미지와 그림자가 없는 이미지 사이에서 의미 정보를 공유한다는 관점에 기반하며, 확장 컨볼루션과 계층적 집계 주의 모델을 통합해 저수준의 유용한 특징을 보존합니다. 또한, 그림자 합성을 위해 생성적 적대 신경망(GAN)을 사용하여 자연 현상에서 영감을 얻은 그림자 이미지를 생성합니다. 실험 결과, 이 새로운 알고리즘은 시각적 품질 면에서 이전 방법들보다 우수한 성능을 보였습니다.
 
-[**Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction**](3/Neural%20Haircut%20Prior-Guided%20Strand-Based%20Hair%20Reco%20ddd7aee550e543c58f4f478642b525e0)
+[Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction](3/Neural%20Haircut%20Prior-Guided%20Strand-Based%20Hair%20Reco%20ddd7aee550e543c58f4f478642b525e0)
 
 이미지나 비디오를 기반으로 사람 머리카락을 모델링하는 새로운 방법을 제시합니다. 이 방법은 머리카락의 복잡한 구조를 고려해 특수 효과, 텔레프레즌스, 게임 등 다양한 분야에 적용 가능합니다. 먼저 체적 표현을 사용해 대략적인 헤어 형태를 재구성한 후, 합동 최적화 과정을 통해 미세한 헤어 줄기를 맞춥니다. 이 과정은 렌더링 기반 손실과 합성 데이터에서 학습된 사전을 포함합니다. 저자들은 이 방법을 통해 3D 헤어 모델을 더 정확하게 재구성할 수 있음을 보여줍니다.
