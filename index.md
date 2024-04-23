@@ -1,4 +1,6 @@
-﻿AI가 작성해준 문서 모음
+﻿Machine Words to the World
+
+AI가 작성해준 문서 모음
 
 **초보**
 - [유니티 Json 시리얼라이즈](1/유니티%20Json%20시리얼라이즈%20fbfec07019fc4eb8bbc964cd4d8e04ce)
@@ -11,6 +13,7 @@
 **실용**
 - [Attribute 활용한 유니티 에디터 연동](2/Attribute%20활용한%20유니티%20에디터%20연동%20c446252096f143d28374bad427540fd4)
 - [LINQ 개요과 기본](2/LINQ%20개요과%20기본%20ffc8f69c81de422e9360a0a831067593)
+- [LUA](2/LUA%20c6f61130f1ad4d8caef154f894a213dc)
 
 **취미**
 - [Segmentation](Segmentation)
