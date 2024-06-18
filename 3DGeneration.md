@@ -312,3 +312,31 @@ Garment3DGen은 이미지나 텍스트 프롬프트로부터 직접 시뮬레이
 [Hash3D: Training-free Acceleration for 3D Generation](3/Hash3D%20Training-free%20Acceleration%20for%203D%20Generatio%20429d9b1246f8474a8266a3b600c7f655)
 
 3D 생성 모델링에서 Hash3D라는 새로운 기술을 소개하여, 기존 방법 대비 계산 시간을 크게 단축시키면서도 시각적 품질을 유지하는 방법을 제안합니다. Hash3D는 중복 계산을 최소화하기 위해 그리드 기반 해시 테이블을 활용하여 특징을 효율적으로 저장하고 재사용함으로써, 다양한 3D 생성 작업에 걸쳐 높은 일관성과 성능을 보장합니다.
+
+[DressCode: Autoregressively Sewing and Generating Garments from Text Guidance](3/DressCode%20Autoregressively%20Sewing%20and%20Generating%20G%20e47eac5286a843c28944f0f88ec1eae8)
+
+본 논문에서는 자연어 상호작용을 통해 사용자 맞춤형 의류를 생성할 수 있는 'DressCode'라는 3D 의류 생성 프레임워크를 제안합니다. 이 프레임워크는 'SewingGPT'라는 GPT 기반의 아키텍처를 사용하여, 텍스트 프롬프트를 통해 다양하고 고품질의 봉제 패턴을 자동 회귀적으로 생성하는 방법을 개발하였습니다.
+
+[CAT3D: Create Anything in 3D with Multi-View Diffusion Models](3/CAT3D%20Create%20Anything%20in%203D%20with%20Multi-View%20Diffus%20aaf077bce803433ca427189f2caf0bb8)
+
+이 논문은 다중 뷰 확산 모델을 사용하여 입력 이미지로부터 일관된 새로운 뷰를 생성하고, 이를 통해 효율적이고 고품질의 3D 복원을 가능하게 합니다. 기존 연구와 달리, CAT3D는 생성 프리어와 3D 복원 과정을 분리하여 계산 효율성을 높이고 방법론적 복잡성을 줄이면서도 향상된 이미지 품질을 제공합니다.
+
+[Coin3D: Controllable and Interactive 3D Assets Generation with Proxy-Guided Conditioning](3/Coin3D%20Controllable%20and%20Interactive%203D%20Assets%20Gene%201add883234534854b591ee9fe3972632)
+
+이 논문은 Coin3D라는 프레임워크를 통해 거친 형태의 3D 프록시를 사용하여 3D 객체 생성을 제어하고, 상호작용적인 부분 편집과 실시간 3D 미리보기를 가능하게 합니다. 이는 기존의 텍스트 또는 이미지 기반 조건을 사용하는 방법과 달리, 사용자 친화적인 3D 인식 제어를 도입하여 더 정밀하고 일관된 3D 객체 생성을 제공합니다.
+
+[MonoHair: High-Fidelity Hair Modeling from a Monocular Video](3/MonoHair%20High-Fidelity%20Hair%20Modeling%20from%20a%20Monocu%205d81671282dc43ce9c536c9c3c00a719)
+
+이 논문은 단안 비디오에서 3D 머리카락을 재구성하기 위해 데이터 프라이어에 의존하지 않고 고품질의 외부 구조를 추출하는 새로운 방법을 제안한다. 이를 통해 다양한 헤어스타일, 특히 기존 방법들이 어려움을 겪었던 곱슬머리와 같은 스타일도 정교하게 재구성할 수 있다.
+
+[TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation](3/TexDreamer%20Towards%20Zero-Shot%20High-Fidelity%203D%20Huma%20d4a9d86108184715a93b0f15d5480dbb)
+
+이 논문은 TexDreamer라는 텍스트와 이미지를 사용하여 고품질 3D 인간 텍스처를 생성하는 최초의 제로샷 멀티모달 방법을 제안합니다. ATLAS 데이터셋을 통해 다양한 고해상도 텍스처를 제공하며, 효율적인 텍스처 적응 미세 조정과 특징 번역기를 통해 기존 방법보다 더 높은 텍스트 일관성과 텍스처 품질을 달성합니다.
+
+[Make-A-Shape: a Ten-Million-scale 3D Shape Model](3/Make-A-Shape%20a%20Ten-Million-scale%203D%20Shape%20Model%20ff9d917067e246e2b807a05d1ca60faf)
+
+이 논문의 차별점은 웨이블릿 트리 표현을 사용하여 3D 형상의 구조적 및 세부 정보를 거의 손실 없이 압축적으로 인코딩하고, 이를 디퓨전 모델로 효과적으로 학습하여 다양한 조건에서 고품질의 3D 형상을 빠르게 생성할 수 있다는 점입니다.
+
+[IllumiNeRF: 3D Relighting without Inverse Rendering](3/IllumiNeRF%203D%20Relighting%20without%20Inverse%20Rendering%203e1baff54f8444f1bef19cc0ef8fd110)
+
+이 논문에서는 이미지 재조명 확산 모델(RDM)을 사용하여 이미지를 재조명하며, 방사선 큐(radiance cues)를 생성하여 스펙큘러 하이라이트와 같은 복잡한 빛 전달 효과를 보강합니다. 방사선 큐는 객체의 기하학을 단순 음영 모델로 여러 재료로 렌더링하여 생성되며, 이는 확산 모델이 입력 이미지와 목표 조명 조건을 더 잘 모델링할 수 있게 도와줍니다.
