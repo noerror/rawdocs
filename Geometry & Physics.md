@@ -19,3 +19,11 @@
 [Noise Pollution Reduction through a Novel Optimization Procedure in Passive Control Methods](3/Noise%20Pollution%20Reduction%20through%20a%20Novel%20Optimiza%2004082cc6545141b6a5346e4b748b24d6)
 
 원본 지오메트리에서 발생할 수 있는 일관성 없는 지오메트리(예: 기하학적 노이즈, 불필요한 복잡성 등)를 최소화하는 방향으로 지오메트리를 최적화합니다. Catmull-Clark 세분화와 같은 고급 기법을 사용하여 구조물의 기하학적 형태를 더욱 정밀하고 효율적으로 다듬어, 최적의 설계를 달성하려는 것이 핵심 목표입니다
+
+[Vertex Block Descent](3/Vertex%20Block%20Descent%202b886b5037464f919ea7157300af7d4b)
+
+기존의 위치 기반 동역학 방법(Position-Based Dynamics, PBD)과 달리, 힘 공식화를 직접 사용하여 위치를 업데이트하며, 정점 기반 가우스-자이델 반복을 통해 병렬성을 극대화하여 더 적은 색으로 효율적인 병렬 처리를 수행합니다. 또한, VBD는 무조건적인 안정성을 제공하며, 높은 질량 비율과 큰 시간 단계에서도 안정적인 수렴을 보장합니다.
+
+[Recompose Grammars for Procedural Architecture](3/Recompose%20Grammars%20for%20Procedural%20Architecture%20360cee8c74e14adf940c866cf6ffd204)
+
+기존의 절차적 건축 모델링 언어의 한계를 극복하기 위해 형태 재조합과 기하학 태그 기능을 도입한 Recomp를 제안합니다. Recomp는 분할된 형태의 일관성을 유지하면서 지역적 수정과 문맥 정보를 효율적으로 처리할 수 있게 하여 모델링의 표현력과 유연성을 크게 향상시킵니다.

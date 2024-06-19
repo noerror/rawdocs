@@ -152,7 +152,7 @@ SDXL, 텍스트-이미지 합성을 위한 안정적 확산 모델의 개선된 
 
 DREAM-Talk은 오디오 시퀀스, 지정된 인물 이미지, 감정 스타일 예시를 기반으로 고품질 감정 표현과 사실적인 립싱크를 갖춘 말하는 얼굴 비디오를 생성하는 새로운 기술입니다. 현존하는 방법들은 감정 표현의 미묘함과 다양성을 포착하는 데 어려움을 겪는 반면, DREAM-Talk은 두 가지 주요 단계를 사용합니다: EmoDiff 모듈과 립 리파이닝. EmoDiff는 감정 조건부 확산 모델을 사용하여 역동적인 감정 표현을 포착하며, 립 리파이닝 단계는 정확한 립싱크를 보장합니다. 이 방법은 감정 표현, 입술 동기화, 신원 보존, 이미지 품질 면에서 기존 방식보다 우수한 결과를 제공합니다. DREAM-Talk의 성공은 가상현실, 엔터테인먼트, 커뮤니케이션 등 다양한 분야에 적용될 수 있는 실감나고 감정적으로 몰입할 수 있는 디지털 인간 표현을 가능하게 합니다.
 
-[Wav2Lip: *Accurately Lip-syncing Videos In The Wild*](3/Wav2Lip%20Accurately%20Lip-syncing%20Videos%20In%20The%20Wild%204e4ebce8dcde452ebebc95f85fa32d5c)
+[Wav2Lip: Accurately Lip-syncing Videos In The Wild](3/Wav2Lip%20Accurately%20Lip-syncing%20Videos%20In%20The%20Wild%204e4ebce8dcde452ebebc95f85fa32d5c)
 
 동영상에서 자연스러운 립싱크를 생성하기 위한 새로운 접근법을 제시합니다. 이 모델은 다양한 환경과 화자에 대해 정확한 입술 움직임을 동기화할 수 있는 능력을 갖추고 있습니다. 이 연구는 립싱크의 정확성을 보장하기 위해 사전에 훈련된 립싱크 '전문가'를 활용하며, 이를 통해 기존 모델의 단점을 극복합니다. 또한, 이 논문은 현재 립싱크 평가 방식의 한계를 지적하고 새로운 평가 메트릭과 벤치마크를 제안합니다. Wav2Lip은 정량적 및 정성적 평가 모두에서 우수한 성능을 보이며, 이러한 기술의 활용 가능성을 넓혀 다양한 언어로 더빙된 콘텐츠나 CGI 캐릭터의 애니메이션 제작에 기여할 수 있습니다. 이 모델은 합성 콘텐츠의 표시를 통해 공정한 사용을 촉진하며, 조작된 동영상 콘텐츠의 오용을 탐지하고 방지하는 연구에 기여할 수 있습니다.
 
@@ -187,3 +187,15 @@ Boximator는 비디오 내 객체의 움직임을 세밀하게 제어할 수 있
 [Champ: Controllable and Consistent Human Image Animation with 3D Parametric Guidance](3/Champ%20Controllable%20and%20Consistent%20Human%20Image%20Anim%20c5726e417ede407cbb3bdd2483fe9d06)
 
 "Champ" 논문은 SMPL 3D 파라메트릭 인간 모델과 잠재 확산 모델을 통합하여, 인간 이미지 애니메이션의 정확도와 현실성을 크게 향상시키는 새로운 방법을 제시합니다. 이 방법은 다층 정보를 활용하여 인간의 동작과 형태에 대한 상세한 가이드를 제공하고, 실제 인간의 움직임과 형태를 보다 현실적으로 포착할 수 있는 차별점을 가집니다.
+
+[MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](3/MaPa%20Text-driven%20Photorealistic%20Material%20Painting%20%20ea0ed45292d343daa1e7f1d80001c701)
+
+본 논문은 텍스트 설명을 기반으로 3D 메시에 대해 사실적이고 조명에 따라 변화하는 고해상도 재료를 생성할 수 있는 새로운 프레임워크를 제안합니다. 이 방법은 사전 훈련된 2D 확산 모델을 사용하여 세그먼트별 절차적 재료 그래프를 최적화하고, 이를 통해 사용자가 쉽게 재료를 편집할 수 있도록 지원합니다.
+
+[Stylus: Automatic Adapter Selection for Diffusion Models](3/Stylus%20Automatic%20Adapter%20Selection%20for%20Diffusion%20M%2051190521010f4a9bbcd48b8193071050)
+
+이 논문은 사용자 프롬프트에 기반하여 관련성 높은 어댑터를 자동으로 선택하고 조합하는 새로운 시스템인 Stylus를 제안합니다. Stylus는 시각적 충실도, 텍스트 정렬, 이미지 다양성을 향상시키며, 기존의 이미지 생성 모델과 비교하여 더욱 효과적으로 다양한 이미지를 생성합니다.
+
+[Paint by Inpaint: Learning to Add Image Objects by Removing Them First](3/Paint%20by%20Inpaint%20Learning%20to%20Add%20Image%20Objects%20by%20%20447cb8bd63934041820bfb79b48d67e5)
+
+이 논문에서 제안하는 방법론은 기존의 이미지에서 객체를 제거하는 인페인팅 과정을 역으로 활용하여 새로운 객체를 추가하는 'Paint by Inpaint' 프레임워크를 소개합니다. 즉, 이미지에서 먼저 객체를 제거한 후, 이를 기반으로 새로운 객체를 추가하는 방식을 사용합니다. 이 역방향 접근 방식은 추가된 객체가 자연스러워 보이게 하는 데 중점을 두며, 결과적으로 편집된 이미지의 품질을 향상시키는 것을 목표로 합니다.
