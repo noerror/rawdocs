@@ -340,3 +340,15 @@ Garment3DGen은 이미지나 텍스트 프롬프트로부터 직접 시뮬레이
 [IllumiNeRF: 3D Relighting without Inverse Rendering](3/IllumiNeRF%203D%20Relighting%20without%20Inverse%20Rendering%203e1baff54f8444f1bef19cc0ef8fd110)
 
 이 논문에서는 이미지 재조명 확산 모델(RDM)을 사용하여 이미지를 재조명하며, 방사선 큐(radiance cues)를 생성하여 스펙큘러 하이라이트와 같은 복잡한 빛 전달 효과를 보강합니다. 방사선 큐는 객체의 기하학을 단순 음영 모델로 여러 재료로 렌더링하여 생성되며, 이는 확산 모델이 입력 이미지와 목표 조명 조건을 더 잘 모델링할 수 있게 도와줍니다.
+
+[MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers](3/MeshAnything%20Artist-Created%20Mesh%20Generation%20with%20A%202d9a95d748f842d984b22057bed36976)
+
+메쉬 데이터를 벡터 양자화를 통해 효율적으로 구성하고, 트랜스포머 모델을 사용하여 메쉬를 순차적으로 생성하는 방법을 제안합니다. 3D 자산에서 샘플링된 포인트 클라우드가 포인트 클라우드 인코더에 의해 고정 길이의 특징 시퀀스로 변환됩니다. 그런 다음, VQ-VAE 인코더는 메쉬의 삼각형 면을 벡터로 양자화하여 특징 벡터 시퀀스를 생성합니다. 트랜스포머 모델은 이 특징 시퀀스와 포인트 클라우드 시퀀스를 입력으로 받아, 다음 삼각형 면의 인덱스를 순차적으로 예측합니다. 최종적으로, 예측된 인덱스 시퀀스는 VQ-VAE 디코더에 의해 다시 메쉬로 재구성됩니다. 이 방식은 기존의 재구성 방법보다 더 효율적이고 정교한 토폴로지를 가진 메쉬를 생성할 수 있습니다.
+
+[Meta 3D Gen](3/Meta%203D%20Gen%20cd988f3e9c48460fb88eb5006834c118)
+
+텍스트를 기반으로 고품질 3D 객체와 텍스처를 신속하게 생성하는 통합 파이프라인으로, AssetGen과 TextureGen을 결합하여 기존 솔루션보다 뛰어난 성능과 속도를 제공합니다. 이 시스템은 전문 3D 아티스트들의 평가에서도 우수성을 입증하며, 다양한 응용 분야에서 활용될 수 있는 가능성을 제시합니다.
+
+[Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials](3/Meta%203D%20AssetGen%20Text-to-Mesh%20Generation%20with%20High%20192519aacd6c473789712df4604b82fb)
+
+텍스트나 이미지를 기반으로 물리 기반 렌더링(PBR) 재질을 가진 고품질의 3D 메쉬를 빠르게 생성하는 두 단계 파이프라인을 제안합니다. 특히, SDF 기반의 기하학적 표현과 텍스처 리파이너를 사용하여 기존 방법보다 더 정확한 기하학과 세밀한 재질 표현을 제공합니다.
