@@ -352,3 +352,11 @@ Garment3DGen은 이미지나 텍스트 프롬프트로부터 직접 시뮬레이
 [Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials](3/Meta%203D%20AssetGen%20Text-to-Mesh%20Generation%20with%20High%20192519aacd6c473789712df4604b82fb)
 
 텍스트나 이미지를 기반으로 물리 기반 렌더링(PBR) 재질을 가진 고품질의 3D 메쉬를 빠르게 생성하는 두 단계 파이프라인을 제안합니다. 특히, SDF 기반의 기하학적 표현과 텍스처 리파이너를 사용하여 기존 방법보다 더 정확한 기하학과 세밀한 재질 표현을 제공합니다.
+
+[RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models](3/RODIN%20A%20Generative%20Model%20for%20Sculpting%203D%20Digital%20%20ddb428a5580b440d9051803dff36bd27)
+
+RodinHD는 기존 방식들이 세밀한 디테일을 생성하는 데 어려움을 겪는 문제를 해결하기 위해 작업 재생 전략과 가중치 통합 정규화를 도입하여 디코더의 과적합을 방지하고 세부 사항을 보존합니다. 또한, 다중 스케일 특징 주입을 통해 초상화 이미지와 생성된 아바타 간의 일관성을 높여 고해상도 3D 아바타를 추가적인 정제 과정 없이 직접 생성할 수 있습니다.
+
+[CharacterGen: Efficient 3D Character Generation from Single Imageswith Multi-View Pose Calibration](3/CharacterGen%20Efficient%203D%20Character%20Generation%20fro%20247bace7d5094381b2fccce08388b2c5)
+
+CharacterGen은 단일 이미지에서 고품질의 3D 캐릭터를 효율적으로 생성하는 프레임워크로, 정규화된 포즈와 일관된 외형을 갖춘 3D 메쉬를 빠르게 생성합니다. 이를 통해 생성된 캐릭터는 리깅 및 애니메이션 워크플로우에 적합하여 다양한 다운스트림 애플리케이션에서 활용될 수 있습니다.
