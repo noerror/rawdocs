@@ -15,6 +15,7 @@ AI가 작성해준 문서 모음
 - [Attribute 활용한 유니티 에디터 연동](2/Attribute%20활용한%20유니티%20에디터%20연동%20c446252096f143d28374bad427540fd4)
 - [LINQ 개요과 기본](2/LINQ%20개요과%20기본%20ffc8f69c81de422e9360a0a831067593)
 - [LUA](2/LUA%20c6f61130f1ad4d8caef154f894a213dc)
+- [라플라스 방정식](2/라플라스%20방정식%20c48663e61e7a4674aaecc718f386ef77)
 
 **취미**
 - [Segmentation](Segmentation)
