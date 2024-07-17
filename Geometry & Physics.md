@@ -1,6 +1,6 @@
 # Geometry & Physics
 
-[**Optimized Spatial Hashing for Collision Detection of Deformable Objects**](3/Optimized%20Spatial%20Hashing%20for%20Collision%20Detection%20%2040e0c3ba0bc046a09c7c1e40e4f79b59)
+[Optimized Spatial Hashing for Collision Detection of Deformable Objects](3/Optimized%20Spatial%20Hashing%20for%20Collision%20Detection%20%2040e0c3ba0bc046a09c7c1e40e4f79b59)
 
 동적으로 변형되는 물체들 사이의 충돌 및 자기 충돌을 효율적으로 감지하기 위해 공간 해싱 기반의 새로운 알고리즘을 제안합니다. 이 방법은 실시간 시뮬레이션에서 복잡한 물체들의 상호작용을 정확하고 빠르게 처리할 수 있는 능력을 제공함으로써, 게임, 의료 시뮬레이션, 가상 현실과 같은 다양한 분야에서의 응용 가능성을 크게 확장합니다.
 
@@ -35,3 +35,23 @@ CGA Shape라는 새로운 형태 문법을 통해 부피 모델링과 지붕 설
 [Instant Architecture](3/Instant%20Architecture%20c6080d52d80c4ca8948b18213e45ab92)
 
 스플릿 문법을 도입하여 자동 건물 모델링을 가능하게 하고, 속성 매칭 시스템과 제어 문법을 통해 설계의 일관성과 자동화를 보장하는 데 있다. 이를 통해 사용자는 고수준의 설계 목표를 설정하고, 시스템은 이를 바탕으로 다양한 건축 스타일과 복잡한 구조를 효율적으로 생성할 수 있다.
+
+[Rule-based Procedural Tree Modeling Approach](3/Rule-based%20Procedural%20Tree%20Modeling%20Approach%20daebecb9a6ed470b89cd5dd096963809)
+
+가상 현실 및 CG 영화 산업에서 나무 모델링의 사실성을 높이기 위해 다양한 규칙 기반 절차적 모델링 방법을 분석하고, 이를 통해 나무의 가지 구조와 표면을 더욱 현실감 있게 재현하는 기술을 제시한다. 특히, 성장 규칙과 환경적 요인을 결합한 혼합 모델링 및 직관적인 그래픽 인터페이스를 통한 모델링 효율성 향상이 주요 차별점이다.
+
+[Inverse Procedural Modeling of Trees](3/Inverse%20Procedural%20Modeling%20of%20Trees%20d1e06d6ba8bc443493ac700663c9b223)
+
+생물학적 나무의 확률적 역절차적 모델링을 위한 새로운 프레임워크를 제안하며, 이를 통해 다양한 나무 종의 시각적 및 구조적 유사성을 자동으로 최대화하는 파라미터를 추정한다. 이 프레임워크는 단일 입력 모델을 기반으로 환경에 민감하게 반응하는 나무 모델을 생성할 수 있어, 절차적 모델링의 제어 가능성을 높이고 현실적인 나무 장면을 효율적으로 생성할 수 있다.
+
+[RigNet: Neural Rigging for Articulated Characters](3/RigNet%20Neural%20Rigging%20for%20Articulated%20Characters%204469d989223d4b9eb98bac6ccf3a29cf)
+
+ 입력된 3D 캐릭터 메쉬로부터 자동으로 애니메이션 스켈레톤과 스키닝 가중치를 예측하는 딥러닝 기반 솔루션인 RigNet을 제안한다. RigNet은 그래프 신경망을 사용하여 관절 위치를 예측하고, 관절 간의 연결성을 학습하여 최적의 스켈레톤을 생성한 후, 각 메쉬 버텍스에 대한 스키닝 가중치를 계산한다.
+
+[Subdivision for Modeling and Animation](3/Subdivision%20for%20Modeling%20and%20Animation%203de1e7ac0336411ab6f3efdab64d9c9b)
+
+이 논문은 Loop, Catmull-Clark, Modified Butterfly, Kobbelt, Doo-Sabin 등 다양한 서브디비전 기법의 원리와 적용 방법을 분석하고, 각 기법의 매트릭스 표현, 매끄러움, 자연 파라미터화 등을 상세히 설명한다. 또한, 각 기법의 한계와 문제점을 논의하며, 복잡한 3D 모델링에서의 효과적인 활용을 위한 이론적 및 실용적 지침을 제공한다.
+
+[Harmonic Coordinates](3/Harmonic%20Coordinates%20cc5ba375038249daaa306bb780631052)
+
+조화 좌표(harmonic coordinates)를 사용하여 2차원 및 3차원 객체를 변형하는 새로운 방법을 제안합니다. 조화 좌표는 라플라스 방정식(Laplace's equation)의 해로서, 객체 변형 시 비음성(non-negativity)과 내부 국소성(interior locality)을 보장합니다. 이 방법은 먼저 변형할 객체를 둘러싸는 케이지(cage)를 설정하고, 이를 포함하는 격자를 생성하는 것으로 시작됩니다. 격자의 각 셀은 초기화 후 라플라스 방정식을 통해 이웃 셀 값의 평균으로 반복적으로 업데이트되어 내부 셀의 가중치가 결정됩니다. 이러한 가중치는 셀이 특정 케이지 꼭짓점으로부터 받는 영향을 나타내며, 케이지 꼭짓점이 움직일 때 객체 점들의 최종 위치를 결정하는 데 사용됩니다. 조화 좌표는 부드럽고 자연스러운 변형을 가능하게 하며, 특히 캐릭터 변형과 같은 응용 분야에서 유용합니다.
