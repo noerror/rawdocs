@@ -43,3 +43,19 @@ ReSTIR(시간 및 공간 저장소를 사용한 재샘플링 임포턴스 샘플
 [Moving Basis Decomposition for Precomputed Light Transport](3/Moving%20Basis%20Decomposition%20for%20Precomputed%20Light%20T%20c4f3f5ffb0434ba899dfdc92b82a38f1)
 
 이동 기저 분해(MBD)라는 새로운 프레임워크를 제안하여, 공간적으로 일관된 고차원 신호를 효율적으로 압축하고, 대규모 실제 응용 프로그램에서 무결점 재구성을 가능하게 함으로써 기존 방법들에 비해 높은 메모리 효율성과 뛰어난 재구성 품질을 제공합니다.
+
+[A Reconstruction Filter for Plausible Motion Blur](3/A%20Reconstruction%20Filter%20for%20Plausible%20Motion%20Blur%20bbb49d548c504b78af2ea73ab7dd5a67)
+
+ 게임과 같은 실시간 애플리케이션에서 높은 성능과 품질을 제공하는 새로운 모션 블러 알고리즘을 소개합니다. 이 알고리즘은 주요 속도를 타일 단위로 계산하고, 이를 바탕으로 각 픽셀의 블러를 재구성하여 적은 수의 샘플로도 높은 품질의 모션 블러를 실시간으로 구현합니다.
+
+[A Fast and Stable Feature-Aware Motion Blur Filter](3/A%20Fast%20and%20Stable%20Feature-Aware%20Motion%20Blur%20Filter%20d3312e98fcc343bcb40e04aa8d54928f)
+
+단일 속도 기반의 타일 필터링 접근 방식을 개선하여, 복잡한 모션과 깊이 관계에서도 안정적이고 고품질의 모션 블러를 실시간으로 구현할 수 있는 방법을 제안합니다. 이 방법은 타일 간 경계 불연속성을 줄이고 얇은 객체와 다양한 속도 분포를 효과적으로 처리하여 시각적 아티팩트를 최소화합니다.
+
+[Real-Time Hair Rendering with Hair Meshes](3/Real-Time%20Hair%20Rendering%20with%20Hair%20Meshes%20165436d9dd3049d89729731108d02aa4)
+
+이 논문은 머리카락 메쉬 구조를 이용하여 실시간으로 가닥 기반 머리카락을 렌더링하는 방법을 제시하며, 텍스처 필터링 하드웨어를 활용해 머리카락 곡선을 생성하고, 레벨 오브 디테일(LOD) 기법을 통해 성능을 최적화한다. 이전 논문들과의 차별점은 머리카락 메쉬를 사용해 메모리 사용량을 크게 줄이고, GPU에서 즉석에서 머리카락 가닥을 생성하여 실시간 렌더링 성능을 대폭 향상시킨 점이다.
+
+[Filtering After Shading With Stochastic Texture Filtering](3/Filtering%20After%20Shading%20With%20Stochastic%20Texture%20Fi%204aa5601273b14eb6b59b784a58ff137e)
+
+셰이딩 후 확률적 텍스처 필터링을 도입하여 비선형 텍스처 기여로 인한 오류를 줄이고, 효율적인 샘플링 기법을 통해 고품질의 이미지를 구현하는 방법을 제시합니다. 특히 스크린 공간 기반 지터링과 DLSS 같은 시간적 재구성 알고리즘을 결합하여, 높은 품질의 필터링을 적은 계산 비용으로 달성할 수 있음을 입증합니다.
