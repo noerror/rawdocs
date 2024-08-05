@@ -361,6 +361,6 @@ RodinHD는 기존 방식들이 세밀한 디테일을 생성하는 데 어려움
 
 CharacterGen은 단일 이미지에서 고품질의 3D 캐릭터를 효율적으로 생성하는 프레임워크로, 정규화된 포즈와 일관된 외형을 갖춘 3D 메쉬를 빠르게 생성합니다. 이를 통해 생성된 캐릭터는 리깅 및 애니메이션 워크플로우에 적합하여 다양한 다운스트림 애플리케이션에서 활용될 수 있습니다.
 
-[SF3D: Stable Fast 3D Mesh Reconstruction with UV-unwrapping and Illumination Disentanglement](3/SF3D-Stable-Fast-3D-Mesh-Reconstruction-with-UV-unwrapping-and-Illumination-Disentanglement-977078bf645d4d0fa06e1e5fc5cdfb2f)
+[SF3D: Stable Fast 3D Mesh Reconstruction with UV-unwrapping and Illumination Disentanglement](3/SF3D%20Stable%20Fast%203D%20Mesh%20Reconstruction%20with%20UV-un%20977078bf645d4d0fa06e1e5fc5cdfb2f)
 
 단일 이미지로부터 고속으로 고품질의 텍스처와 UV 언래핑된 3D 객체 메쉬를 생성하는 SF3D 기법을 제안하며, 향상된 트랜스포머 아키텍처와 효율적인 UV 언래핑 기법을 도입하여 기존의 모델들보다 더 나은 재료 속성 예측과 매끄러운 형상 재구성을 가능하게 합니다. SF3D는 특히 빠른 속도(0.5초)와 낮은 폴리곤 수로도 높은 품질의 3D 객체를 생성할 수 있어 실용적인 응용 프로그램에서의 사용성을 크게 향상시킵니다.
