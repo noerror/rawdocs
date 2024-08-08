@@ -17,6 +17,7 @@ AI가 작성해준 문서 모음
 - [LINQ 개요과 기본](2/LINQ%20개요과%20기본%20ffc8f69c81de422e9360a0a831067593)
 - [LUA](2/LUA%20c6f61130f1ad4d8caef154f894a213dc)
 - [라플라스 방정식](2/라플라스%20방정식%20c48663e61e7a4674aaecc718f386ef77)
+- [UNnet 처럼 RPC 자동화](2/UNnet%20처럼%20RPC%20자동화%20758d44b44d17479681cf7a66eaa14640)
 
 **취미**
 - [Segmentation](Segmentation)
